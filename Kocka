@@ -1,0 +1,57 @@
+import random
+
+
+x= input("Zazeni kocko z crko Y prenehaj igro z N:").lower()
+st = random.randint(1,6)
+
+if x=="y":
+  if st==1:
+    print("┌──────────────┐")
+    print("│              │")
+    print("│              │")
+    print("│      ◉       │")
+    print("│              │")
+    print("│              │")
+    print("└──────────────┘")
+  elif st==2:
+    print("┌──────────────┐")
+    print("│              │")
+    print("│              │")
+    print("│    ◉    ◉    │")
+    print("│              │")
+    print("│              │")
+    print("└──────────────┘")
+  elif st==3:
+    print("┌──────────────┐")
+    print("│              │")
+    print("│       ◉      │")
+    print("│    ◉     ◉   │")
+    print("│              │")
+    print("│              │")
+    print("└──────────────┘")
+  elif st==4:
+    print("┌──────────────┐")
+    print("│              │")
+    print("│    ◉     ◉   │")
+    print("│              │")
+    print("│    ◉     ◉   │")
+    print("│              │")
+    print("└──────────────┘")
+  elif st==5:
+    print("┌──────────────┐")
+    print("│              │")
+    print("│    ◉     ◉   │")
+    print("│       ◉      │")
+    print("│    ◉     ◉   │")
+    print("│              │")
+    print("└──────────────┘")
+  elif st==6:
+    print("┌──────────────┐")
+    print("│              │")
+    print("│    ◉     ◉   │")
+    print("│    ◉     ◉   │")
+    print("│    ◉     ◉   │")
+    print("│              │")
+    print("└──────────────┘")
+else:
+  print("Igra je koncana")
